@@ -228,7 +228,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.42201233, y: 0}
+  m_AnchoredPosition: {x: 0.4220085, y: 0}
   m_SizeDelta: {x: -0.84400177, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &67604542
@@ -341,7 +341,6 @@ GameObject:
   - component: {fileID: 70288856}
   - component: {fileID: 70288858}
   - component: {fileID: 70288857}
-  - component: {fileID: 70288859}
   m_Layer: 5
   m_Name: Grenad
   m_TagString: Untagged
@@ -367,7 +366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.8471646, y: 0.54}
   m_AnchorMax: {x: 0.95100003, y: 0.70485187}
-  m_AnchoredPosition: {x: 1.1781006, y: -107.99994}
+  m_AnchoredPosition: {x: 1.1781616, y: -107.99994}
   m_SizeDelta: {x: -4.5419006, y: -3.3522034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &70288857
@@ -408,79 +407,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 70288855}
   m_CullTransparentMesh: 1
---- !u!114 &70288859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 70288855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectGrenad
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 5
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverOver
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverExit
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 5
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectInventoryComponent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &90388329
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,7 +418,6 @@ GameObject:
   - component: {fileID: 90388330}
   - component: {fileID: 90388332}
   - component: {fileID: 90388331}
-  - component: {fileID: 90388333}
   m_Layer: 5
   m_Name: Health
   m_TagString: Untagged
@@ -518,7 +443,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.73060274, y: 0.54}
   m_AnchorMax: {x: 0.8325206, y: 0.70485187}
-  m_AnchoredPosition: {x: 0.67822266, y: -107.99994}
+  m_AnchoredPosition: {x: 0.6781616, y: -107.99994}
   m_SizeDelta: {x: 0.45809937, y: -3.3522034}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &90388331
@@ -559,79 +484,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90388329}
   m_CullTransparentMesh: 1
---- !u!114 &90388333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 90388329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectHealthBooster
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 4
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverOver
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 4
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverExit
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 4
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectInventoryComponent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &175339780
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,7 +596,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.051685065, y: 0.7656667}
   m_AnchorMax: {x: 0.675, y: 0.93100005}
-  m_AnchoredPosition: {x: 2.2832031, y: -105}
+  m_AnchoredPosition: {x: 2.2832642, y: -105}
   m_SizeDelta: {x: 1.6394958, y: -16.352299}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &179421830
@@ -804,19 +656,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1004848041}
           m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectAk47
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverOver
+          m_MethodName: InventeryHoverOver
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -825,23 +665,7 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverExit
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+          m_CallState: 1
   - eventID: 4
     callback:
       m_PersistentCalls:
@@ -857,7 +681,23 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
-          m_CallState: 2
+          m_CallState: 1
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1004848041}
+          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
+          m_MethodName: RestAllComponent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 1
 --- !u!1 &293602750
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,7 +731,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.72900003, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.010009766, y: -0.00093078613}
+  m_AnchoredPosition: {x: 0.010009766, y: -0.0009384155}
   m_SizeDelta: {x: -0.020004272, y: -0.30999756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &328624931
@@ -1043,7 +883,6 @@ GameObject:
   - component: {fileID: 376797021}
   - component: {fileID: 376797023}
   - component: {fileID: 376797022}
-  - component: {fileID: 376797024}
   m_Layer: 5
   m_Name: Pistoe
   m_TagString: Untagged
@@ -1110,79 +949,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376797020}
   m_CullTransparentMesh: 1
---- !u!114 &376797024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 376797020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectPistol
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 1
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverOver
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverExit
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 1
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectInventoryComponent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &384521835
 GameObject:
   m_ObjectHideFlags: 0
@@ -1194,7 +960,6 @@ GameObject:
   - component: {fileID: 384521836}
   - component: {fileID: 384521838}
   - component: {fileID: 384521837}
-  - component: {fileID: 384521839}
   m_Layer: 5
   m_Name: Sniper
   m_TagString: Untagged
@@ -1220,7 +985,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.051685065, y: 0.54}
   m_AnchorMax: {x: 0.36552057, y: 0.70485187}
-  m_AnchoredPosition: {x: -0.782959, y: -108}
+  m_AnchoredPosition: {x: -0.7828369, y: -108}
   m_SizeDelta: {x: -4.463867, y: -3.352295}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &384521837
@@ -1261,79 +1026,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384521835}
   m_CullTransparentMesh: 1
---- !u!114 &384521839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 384521835}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectPistol
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 2
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverOver
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverExit
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 2
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectInventoryComponent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &452419484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,7 +1037,6 @@ GameObject:
   - component: {fileID: 452419485}
   - component: {fileID: 452419487}
   - component: {fileID: 452419486}
-  - component: {fileID: 452419488}
   m_Layer: 5
   m_Name: MachnineGun
   m_TagString: Untagged
@@ -1371,7 +1062,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.10283551, y: 0.13155557}
   m_AnchorMax: {x: 0.36552057, y: 0.46500003}
-  m_AnchoredPosition: {x: 0.67822266, y: -109.00003}
+  m_AnchoredPosition: {x: 0.67822266, y: -108.99994}
   m_SizeDelta: {x: -3.542099, y: 2.6478004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &452419486
@@ -1412,79 +1103,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452419484}
   m_CullTransparentMesh: 1
---- !u!114 &452419488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 452419484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectMachineGun
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 6
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverOver
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverExit
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 6
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectInventoryComponent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &542384344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1731,7 +1349,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.76600003, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.19100952, y: -0.17295837}
+  m_AnchoredPosition: {x: 0.19100189, y: -0.17295074}
   m_SizeDelta: {x: -0.13999939, y: 1.0299988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &811422656
@@ -2006,7 +1624,6 @@ GameObject:
   - component: {fileID: 879224293}
   - component: {fileID: 879224295}
   - component: {fileID: 879224294}
-  - component: {fileID: 879224296}
   m_Layer: 5
   m_Name: Heading
   m_TagString: Untagged
@@ -2132,19 +1749,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879224292}
   m_CullTransparentMesh: 1
---- !u!114 &879224296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879224292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates: []
 --- !u!1 &910226560
 GameObject:
   m_ObjectHideFlags: 0
@@ -2156,7 +1760,6 @@ GameObject:
   - component: {fileID: 910226561}
   - component: {fileID: 910226563}
   - component: {fileID: 910226562}
-  - component: {fileID: 910226564}
   m_Layer: 5
   m_Name: Knif
   m_TagString: Untagged
@@ -2223,79 +1826,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910226560}
   m_CullTransparentMesh: 1
---- !u!114 &910226564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910226560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectKnife
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 3
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverOver
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverExit
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 3
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectInventoryComponent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &986581001
 GameObject:
   m_ObjectHideFlags: 0
@@ -2375,7 +1905,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.5001221, y: 0}
+  m_AnchoredPosition: {x: -0.50006104, y: 0}
   m_SizeDelta: {x: 1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1004848040
@@ -2445,7 +1975,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0008087158, y: -0.25898743}
+  m_AnchoredPosition: {x: -0.0008087158, y: -0.25899506}
   m_SizeDelta: {x: 0.010002136, y: 0.5200043}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1050657327
@@ -2716,7 +2246,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -37.578033, y: 0}
+  m_AnchoredPosition: {x: -37.57802, y: 0}
   m_SizeDelta: {x: 75.156, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1339290920
@@ -2967,7 +2497,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.67300004, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.13897705, y: 0.19802856}
+  m_AnchoredPosition: {x: -0.13897705, y: 0.19802094}
   m_SizeDelta: {x: 0.27999878, y: -1.1900024}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1506981656
@@ -3003,7 +2533,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.90000004, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.059936523, y: 0.052581787}
+  m_AnchoredPosition: {x: -0.059936523, y: 0.052589417}
   m_SizeDelta: {x: 0.11000061, y: 0.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1586813136
@@ -3040,7 +2570,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.13718301, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.50499725, y: 0}
+  m_AnchoredPosition: {x: -0.50500107, y: 0}
   m_SizeDelta: {x: 1.0100021, y: 2.5200043}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1586813138
@@ -3318,7 +2848,6 @@ GameObject:
   - component: {fileID: 1955128087}
   - component: {fileID: 1955128089}
   - component: {fileID: 1955128088}
-  - component: {fileID: 1955128090}
   m_Layer: 5
   m_Name: Armor
   m_TagString: Untagged
@@ -3344,7 +2873,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.41943836, y: 0.126}
   m_AnchorMax: {x: 0.675, y: 0.46500003}
-  m_AnchoredPosition: {x: 0.31713867, y: -105.99991}
+  m_AnchoredPosition: {x: 0.31713867, y: -105.99995}
   m_SizeDelta: {x: -0.6342201, y: -3.3522}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1955128088
@@ -3385,79 +2914,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955128086}
   m_CullTransparentMesh: 1
---- !u!114 &1955128090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955128086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectArmor
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 7
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverOver
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: InventoryHoverExit
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 7
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1004848041}
-          m_TargetAssemblyTypeName: InventoryCanvasHandler.InventoryView, Assembly-CSharp
-          m_MethodName: SelectInventoryComponent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!1 &2012254911
 GameObject:
   m_ObjectHideFlags: 0
@@ -3736,7 +3192,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00078582764, y: 0.0005187988}
+  m_AnchoredPosition: {x: 0.000787735, y: 0.0005187988}
   m_SizeDelta: {x: 0.3899994, y: -0.6300049}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2083426095
@@ -3872,7 +3328,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.7263492, y: 1}
-  m_AnchoredPosition: {x: -0.5200043, y: 0.0009765625}
+  m_AnchoredPosition: {x: -0.51999664, y: 0.0009765625}
   m_SizeDelta: {x: -0.13000011, y: 0.69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2115617579
