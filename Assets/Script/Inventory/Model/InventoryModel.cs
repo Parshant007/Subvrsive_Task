@@ -25,23 +25,26 @@ namespace InventoryCanvasHandler
             return Instance;
         }
 
-        Dictionary<InventoryEnum, float> inventoryParis= new Dictionary<InventoryEnum, float>();
+        Dictionary<InventoryEnum, int> inventoryParis= new Dictionary<InventoryEnum, int>();
 
         public void SetupModel()
         {
             inventoryParis.Clear();
-            InitalizeDictionary();
+            InitalizeInventorryDictionary();
         }
-        public void InitalizeDictionary()
+        public void InitalizeInventorryDictionary()
         {
             inventoryParis[InventoryEnum.Ak47] = 30;
             inventoryParis[InventoryEnum.Pistol] = 6;
-            inventoryParis[InventoryEnum.Sniper] = 10f;
+            inventoryParis[InventoryEnum.Sniper] = 10;
             inventoryParis[InventoryEnum.Knife] = 1;
             inventoryParis[InventoryEnum.TearGas] = 3;
             inventoryParis[InventoryEnum.Grenade] = 3;
             inventoryParis[InventoryEnum.HealthBooster] = 2;
             inventoryParis[InventoryEnum.Armor] = 2;
         }
+        public void UpdateInventoryDictionaryData(InventoryEnum inventoryEnum , Action<int> callback) => callback?.Invoke(inventoryParis[inventoryEnum]);
+  
+
     }
 }
