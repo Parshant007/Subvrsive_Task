@@ -34,17 +34,16 @@ namespace InventoryCanvasHandler
         }
         public void InitalizeInventorryDictionary()
         {
-            inventoryParis[InventoryEnum.Ak47] = 30;
-            inventoryParis[InventoryEnum.Pistol] = 6;
-            inventoryParis[InventoryEnum.Sniper] = 10;
-            inventoryParis[InventoryEnum.Knife] = 1;
-            inventoryParis[InventoryEnum.TearGas] = 3;
-            inventoryParis[InventoryEnum.Grenade] = 3;
-            inventoryParis[InventoryEnum.HealthBooster] = 2;
-            inventoryParis[InventoryEnum.Armor] = 2;
+            inventoryParis[(InventoryEnum)0] = 0;
+            inventoryParis[(InventoryEnum)1] = 30;
+            inventoryParis[(InventoryEnum)2] = 5;
+            inventoryParis[(InventoryEnum)3] = 30;
+            inventoryParis[(InventoryEnum)4] = 5;
+            inventoryParis[(InventoryEnum)5] = 32;
+            inventoryParis[(InventoryEnum)6] = 25;
+            inventoryParis[(InventoryEnum)7] = 15;
         }
-        public void UpdateInventoryDictionaryData(InventoryEnum inventoryEnum , Action<int> callback) => callback?.Invoke(inventoryParis[inventoryEnum]);
-  
+        public void UpdateInventoryDictionaryData(InventoryEnum inventoryEnum , Action<int> callback) => callback?.Invoke(inventoryParis[inventoryEnum]);  
 
     }
 }

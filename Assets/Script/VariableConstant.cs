@@ -8,9 +8,9 @@
         public const int g = 29;
         public const int b = 29;
         public const int a = 136;
-        public const int e_R = 63;
-        public const int e_G = 59;
-        public const int e_B = 59;
-        public const int e_A = 136;
+        public const int e_R = 233;
+        public const int e_G = 233;
+        public const int e_B = 233;
+        public const int e_A = 0;
 
     }

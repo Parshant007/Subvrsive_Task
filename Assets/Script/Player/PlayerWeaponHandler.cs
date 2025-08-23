@@ -7,11 +7,7 @@ public class PlayerWeaponHandler : MonoBehaviour
     [SerializeField]
     List<GameObject> playerWeapon = new List<GameObject>();
     public static Action<int> onShowCurrentSelectedWeapon;
-    int previousWeapon=0;
-    private void Awake()
-    {
-        ShowCurrentSelectedWeapon(previousWeapon);
-    }
+    int previousWeapon= 0;
     private void OnEnable()
     {
         onShowCurrentSelectedWeapon += ShowCurrentSelectedWeapon;

@@ -2,13 +2,13 @@ namespace InventoryCanvasHandler
 {
     public enum InventoryEnum
     {
-        Ak47= 0,
-        Pistol= 1,
-        Sniper= 2,
-        Knife= 3,
-        TearGas= 4,
-        Grenade= 5,
-        HealthBooster= 6,
-        Armor= 7
+        None= 0,
+        Ak47= 1,
+        PumpShotgun = 2,
+        Assault_Rifle = 3,
+        Sniper = 4,
+        DrumMagazinePistol = 5,
+        SubmachineGun = 6,
+        Pistol = 7
     }
 }

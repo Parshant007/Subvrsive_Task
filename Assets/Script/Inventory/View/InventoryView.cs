@@ -26,7 +26,7 @@ namespace InventoryCanvasHandler
 
         private void Start()
         {
-            previousIndex = currentIndex = 0;
+            previousIndex = currentIndex = 1;
             onSelectInventoryComponent?.Invoke();
         }
         private void OnEnable()
